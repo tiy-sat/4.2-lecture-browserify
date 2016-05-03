@@ -1,1 +1,1 @@
-# 4.1-photo-album
+# 4.2 Lecture Browserify
