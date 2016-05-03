@@ -1,0 +1,18 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "boilerplate for FEE spring class",
+  "scripts": {
+    "watch-sass": "sass --watch sass/main.sass:styles/main.css",
+    "watch-js": "watchify js/lecture.js -o js/bundle.js -v",
+    "watch": "npm run watch-sass & npm run watch-js"
+  },
+  "dependencies": {
+    "jquery": "^2.2.3"
+  },
+  "browser": {
+    "modal": "./js/modal.js",
+    "imagesData": "./js/imagesData.js",
+    "imagesList": "./js/imagesList.js"
+  }
+}
